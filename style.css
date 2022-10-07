@@ -1,0 +1,45 @@
+#maincontainer{
+    border: 2px solid black;
+    height: 850px;
+    width: 80%;
+    text-align: center;
+ padding: 20px;
+ margin: 30px 20px 0 60px ;
+}
+#subContainer{
+    height: 650px;
+    border: 2px solid black;
+    margin: 30px ;
+}
+#img{
+    justify-content: center;
+}
+#select{
+width: 50%;
+
+}
+#btn{
+    border: 2px solid black; 
+}
+#btn1{
+    border: 2px solid black; 
+    width: 75px;
+}
+
+@media  screen and (min-width:530px) {
+    #subContainer{
+    height: 650px;
+    border: 2px solid black;
+    margin: 30px ;
+    padding:10px
+}   
+@media  screen and (min-width:790px) {
+    #subContainer{
+    height: 400px;
+    
+}  
+@media  screen and (min-width:530px) {
+    #maincontainer{
+        height: 650px;
+    }
+} 
